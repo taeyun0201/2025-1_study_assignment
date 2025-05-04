@@ -53,8 +53,8 @@ namespace statistics
                 }
             }
             Console.Write("\n\nMax and min Score:\nMath: (" + max[0] + ", " + min[0] + ")");
-            Console.Write("\nScience: (" + max[1] + "," + min[1] + ")");
-            Console.Write("\nEnglish: (" + max[2] + "," + min[2] + ")");
+            Console.Write("\nScience: (" + max[1] + ", " + min[1] + ")");
+            Console.Write("\nEnglish: (" + max[2] + ", " + min[2] + ")");
             
             double[] sum = {0, 0, 0, 0, 0};
             for(int l = 1; l <= 5; l++){
